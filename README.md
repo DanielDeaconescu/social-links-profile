@@ -23,7 +23,7 @@ A great way to practice the basics of HTML and CSS.
 
 ### Links
 
-- Live Solution URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Solution URL: https://danieldeaconescu.github.io/social-links-profile/
 
 ### Built with
 
