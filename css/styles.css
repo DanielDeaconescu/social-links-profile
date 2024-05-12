@@ -1,0 +1,85 @@
+:root {
+  --primary-green: hsl(75, 94%, 57%);
+  --neutral-white: hsl(0, 0%, 100%);
+  --neutral-grey: hsl(0, 0%, 20%);
+  --neutral-dark-grey: hsl(0, 0%, 12%);
+  --neutral-off-black: hsl(0, 0%, 8%);
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+  background-color: var(--neutral-off-black);
+}
+
+.my-card {
+  background-color: var(--neutral-dark-grey);
+  border-radius: 10px;
+  padding: 30px 35px;
+}
+
+.my-image {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.my-name h1 {
+  color: var(--neutral-white);
+  font-size: 27px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.my-location h5 {
+  color: var(--primary-green);
+  margin: 0 0 28px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.my-description p {
+  color: var(--neutral-white);
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.my-image-inner {
+  max-width: 100px;
+  max-height: 100%;
+  border-radius: 50%;
+}
+
+.my-card-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+
+.button {
+  text-decoration: none;
+  background-color: var(--neutral-grey);
+  color: var(--neutral-white);
+  width: 100%;
+  text-align: center;
+  padding: 12px 0;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.my-card-buttons > *:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.my-card-buttons .button:hover {
+  background-color: var(--primary-green);
+  color: var(--neutral-off-black);
+}
