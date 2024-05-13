@@ -48,7 +48,7 @@ body {
 .my-description p {
   color: var(--neutral-white);
   font-size: 14px;
-  margin-bottom: 25px;
+  margin: 25px 0;
 }
 
 .my-image-inner {
@@ -79,4 +79,11 @@ body {
 .my-card-buttons .button:hover {
   background-color: var(--primary-green);
   color: var(--neutral-off-black);
+}
+
+.my-location-inner {
+  color: var(--primary-green);
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
 }
